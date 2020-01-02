@@ -13,11 +13,12 @@ CONFIG="${CONFIG:-${HOME}/.multibackup.conf}"
 # Functions
 ###
 
-# Color helpers
-color_red=$(tput setaf 1)
-color_yellow=$(tput setaf 3)
-color_green=$(tput setaf 2)
-color_reset=$(tput sgr0)
+# Commenting out the colour helpers as generally this is run via cron and not needed
+## Color helpers
+#color_red=$(tput setaf 1)
+#color_yellow=$(tput setaf 3)
+#color_green=$(tput setaf 2)
+#color_reset=$(tput sgr0)
 
 # Logging prefix helper
 prefix(){
